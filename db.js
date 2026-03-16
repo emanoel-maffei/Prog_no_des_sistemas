@@ -16,3 +16,5 @@ async function selectProdutos() {
     const conn = await connect();
     return await conn.query("SELECT * FROM produtos;");
 }
+
+module.exports = { selectProdutos }
