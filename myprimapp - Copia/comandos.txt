@@ -1,0 +1,7 @@
+Comando para criar o app com react:
+
+    npx create-react-app nome-da-pasta
+
+Caso não funcione, uma das causas possiveis pode ser a versão do npm dependendo do sistema operacional, caso seja windows tente:
+
+    npm install -g npm@10.8.2
